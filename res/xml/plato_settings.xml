@@ -71,7 +71,7 @@
             android:key="recents_category"
             android:title="@string/recents_title"
             android:fragment="com.plato.settings.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recent"/>
+            android:icon="@drawable/ic_settings_recents"/>
 
         <!-- Notifications -->
         <Preference
