@@ -1,4 +1,4 @@
-package com.nitrogen.settings.fragments;
+package com.plato.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 import android.app.Activity;
@@ -28,7 +28,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.nitrogen_settings_recents);
+        addPreferencesFromResource(R.xml.plato_settings_recents);
 
         ContentResolver resolver = getActivity().getContentResolver();
 
@@ -43,6 +43,6 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.PLATO_SETTINGS;
     }
 }
